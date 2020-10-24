@@ -1,0 +1,15 @@
+[package]
+name = "rendering"
+version = "0.1.0"
+authors = ["Mozar <scott.abbott.a@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vulkano = "0.19"
+vulkano-win = "0.19"
+vulkano-shaders = "0.19"
+winit = "0.22"
+log = "0.4"
+cgmath = "0.17"
